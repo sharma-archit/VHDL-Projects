@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct  5 10:40:24 2022
+# Process ID: 940
+# Current directory: C:/Users/archi/OneDrive/Desktop/ECE 410/Labs/Lab 1/lab1_part1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent932 C:\Users\archi\OneDrive\Desktop\ECE 410\Labs\Lab 1\lab1_part1\lab1_part1.xpr
+# Log file: C:/Users/archi/OneDrive/Desktop/ECE 410/Labs/Lab 1/lab1_part1/vivado.log
+# Journal file: C:/Users/archi/OneDrive/Desktop/ECE 410/Labs/Lab 1/lab1_part1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/archi/OneDrive/Desktop/ECE 410/Labs/Lab 1/lab1_part1/lab1_part1.xpr}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/archi/OneDrive/Desktop/ECE 410/Labs/Lab 1/lab1_part1/lab1_part1.srcs/sim_1/new/priority_encoder_tb.vhd}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/Users/archi/OneDrive/Desktop/ECE 410/Labs/Lab 1/lab1_part1/lab1_part1.srcs/sim_1/new/priority_encoder_tb.vhd}}
+file delete -force {C:/Users/archi/OneDrive/Desktop/ECE 410/Labs/Lab 1/lab1_part1/lab1_part1.srcs/sim_1/new/priority_encoder_tb.vhd}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/archi/OneDrive/Desktop/ECE 410/Labs/Lab 1/lab1_part1/lab1_part1.srcs/sim_1/new/priority_encoder_tb.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/archi/OneDrive/Desktop/ECE 410/Labs/Lab 1/lab1_part1/lab1_part1.srcs/sim_1/new/priority_encoder_tb.vhd}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source priority_encoder_tb.tcl
+close_sim
