@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Oct  7 13:17:10 2022
+# Process ID: 5440
+# Current directory: C:/Users/archi/OneDrive/Desktop/ECE 410/Labs/Lab 1/lab1_part2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11796 C:\Users\archi\OneDrive\Desktop\ECE 410\Labs\Lab 1\lab1_part2\lab1_part2.xpr
+# Log file: C:/Users/archi/OneDrive/Desktop/ECE 410/Labs/Lab 1/lab1_part2/vivado.log
+# Journal file: C:/Users/archi/OneDrive/Desktop/ECE 410/Labs/Lab 1/lab1_part2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/archi/OneDrive/Desktop/ECE 410/Labs/Lab 1/lab1_part2/lab1_part2.xpr}
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/archi/OneDrive/Desktop/ECE 410/Labs/Lab 1/lab1_part2/lab1_part2.runs/impl_1/priority_encoder_7_3.bit} [get_hw_devices xc7z010_1]
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z010_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/archi/OneDrive/Desktop/ECE 410/Labs/Lab 1/lab1_part2/lab1_part2.runs/impl_1/priority_encoder_7_3.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+close_hw_manager
