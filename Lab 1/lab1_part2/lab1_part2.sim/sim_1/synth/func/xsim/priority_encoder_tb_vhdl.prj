@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"priority_encoder_tb_func_synth.vhd" \
+"../../../../../lab1_part2.srcs/sim_1/new/priority_encoder_7_3_tb.vhd" \
+
+# Do not sort compile order
+nosort
