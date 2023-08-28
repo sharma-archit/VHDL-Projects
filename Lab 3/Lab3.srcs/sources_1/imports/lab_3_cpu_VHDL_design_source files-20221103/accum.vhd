@@ -14,8 +14,8 @@
 --
 -- Revision:
 -- Revision 0.01 - File Created
--- Revision 1.01 - File Modified by Raju Machupalli (October 31, 2021)
--- Revision 2.01 - File Modified by Shyama Gandhi (November 2, 2021)
+-- Revision 1.01 - File Modified by R.M (October 31, 2021)
+-- Revision 2.01 - File Modified by S.G (November 2, 2021)
 -- Additional Comments:
 --*********************************************************************************
 -- 8-bit accumulator register as shown in the datapath of lab manual
