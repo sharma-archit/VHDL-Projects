@@ -14,7 +14,7 @@
 --
 -- Revision:
 -- Revision 0.01 - File Created
--- Revision 1.01 - File Modified by Shyama Gandhi (Nov 2, 2021)
+-- Revision 1.01 - File Modified by S.G (Nov 2, 2021)
 -- Additional Comments:
 --*********************************************************************************
 --THIS IS A 4x1 MUX that selects between the four inputs as shown in the lab manual.
