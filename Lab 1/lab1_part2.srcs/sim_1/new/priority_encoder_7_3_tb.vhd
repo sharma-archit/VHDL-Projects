@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------
 -- Company: University of Alberta - Department of Electrical and Computer Engineering
--- Engineer: Bruce Cockburn, Chengzhang Lyu, Shyama Gandhi, Antonio Andara
+-- Engineer: B.C, C.L, S.G, A.A, Archit Sharma
 -- 
 -- Create Date: 09/13/2022 07:35:27 AM
 -- Design Name: 
