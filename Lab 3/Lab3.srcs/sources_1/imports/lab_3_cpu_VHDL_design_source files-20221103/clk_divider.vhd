@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------
 -- Company: Department of Electrical and Computer Engineering, University of Alberta
--- Engineer: 
+-- Engineer: S.G, B.C and Archit Sharma
 -- 
 -- Create Date: 10/30/2020 12:15:49 AM
 -- Design Name: 
