@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------
 -- Company: Department of Electrical and Computer Engineering, University of Alberta
--- Engineer: Shyama Gandhi and Bruce Cockburn
+-- Engineer: S.G, B.C and Archit Sharma
 --
 -- Create Date: 10/29/2020 07:18:24 PM
 -- Design Name: CONTROLLER FOR THE CPU
