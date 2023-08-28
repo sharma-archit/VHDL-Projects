@@ -2,7 +2,7 @@
 
 ----------------------------------------------------------------------------------
 -- Company: University of Alberta, Edmonton
--- Engineer: Shyama Gandhi
+-- Engineer: S.G and Archit Sharma
 -- 
 -- Create Date: 10/02/2022 09:24:27 PM
 -- Design Name: 
