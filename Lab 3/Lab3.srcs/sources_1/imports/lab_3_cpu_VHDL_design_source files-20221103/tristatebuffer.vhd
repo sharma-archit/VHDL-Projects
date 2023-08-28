@@ -14,7 +14,7 @@
 --
 -- Revision:
 -- Revision 0.01 - File Created
--- Revision 2.01 - File Modified by Shyama Gandhi (November 2, 2021)
+-- Revision 2.01 - File Modified by S.G (November 2, 2021)
 -- Additional Comments:
 --*********************************************************************************
 -- When the enable line is asserted, the output from the accumulator will be stored in the buffer.
