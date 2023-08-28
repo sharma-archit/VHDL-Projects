@@ -14,7 +14,7 @@
 --
 -- Revision:
 -- Revision 0.01 - File Created
--- Revision 2.01 - File Modified by Shyama Gandhi (November 2, 2021)
+-- Revision 2.01 - File Modified by S.G (November 2, 2021)
 -- Additional Comments:
 --*********************************************************************************
 -- This the seven segment that will display the current Program counter on any one of the two display(seven-segment)
